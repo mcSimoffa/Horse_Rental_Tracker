@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>1</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <DebugChecksum>
+        <Checksum>2223695422</Checksum>
+    </DebugChecksum>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CodeCoverage>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+        <HideCovered>0</HideCovered>
+    </CodeCoverage>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>1</ShowArgs>
+    </CallStack>
+    <StLinkDriver>
+        <stlinkserialNo>48FF6C064971545247331387</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>1</OverrideDefaultClocks>
+        <CpuClock>36000000</CpuClock>
+        <ClockAutoDetect>1</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>18</Prescaler>
+        <TimeStampPrescIndex>3</TimeStampPrescIndex>
+        <TimeStampPrescData>3</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>1</ITMportsEnable>
+        <ITMportsTermIO>1</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\ITMx</ITMlogFile>
+    </SWOTraceHWSettings>
+    <InterruptStripe>
+        <Sort>1</Sort>
+    </InterruptStripe>
+    <SfrWindow>
+        <Show>1 1</Show>
+        <Sort>4 0</Sort>
+    </SfrWindow>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <watch_formats>
+        <Fmt0>{W}1:DT-&gt;Hour	3	0</Fmt0>
+        <Fmt1>{W}1:DT-&gt;Minute	3	0</Fmt1>
+        <Fmt2>{W}1:DT-&gt;Second	3	0</Fmt2>
+        <Fmt3>{W}1:DT-&gt;Year	3	0</Fmt3>
+        <Fmt4>{W}1:DT-&gt;zz	3	0</Fmt4>
+        <Fmt5>{W}1:IRQn	3	0</Fmt5>
+        <Fmt6>{W}1:NIXtime	3	0</Fmt6>
+        <Fmt7>{W}1:PendingDOflags	1	0</Fmt7>
+        <Fmt8>{W}1:SheduleFlags	1	0</Fmt8>
+        <Fmt9>{W}1:bat	3	0</Fmt9>
+        <Fmt10>{W}1:bodyLen	3	0</Fmt10>
+        <Fmt11>{W}1:deviceErrors	1	0</Fmt11>
+        <Fmt12>{W}1:deviceFlags	1	0</Fmt12>
+        <Fmt13>{W}1:unixRTCtime	3	0</Fmt13>
+    </watch_formats>
+    <Registers>
+        <regBase0>RTC_CNTL 10</regBase0>
+        <regBase1>RTC_CNTH 10</regBase1>
+    </Registers>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 1</LoggingEnabled>
+        <LogFile>_ "$PROJ_DIR$\TermIO.log"</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 1</LoggingEnabled>
+        <LogFile>_ "$PROJ_DIR$\LogFile1.log"</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include\core_cm3.h" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include\core_cm3.h"</A0>
+        <A1>_ "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include\core_cm3.h" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CMSIS\Core\Include\core_cm3.h"</A1>
+        <A2>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\main.c" ""</A2>
+        <A3>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\SIM800Lib.c" ""</A3>
+        <A4>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\rtos\heap_1.c" ""</A4>
+        <A5>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\rtos\list.c" ""</A5>
+        <A6>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\rtos\port.c" ""</A6>
+        <A7>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\rtos\portasm.s" ""</A7>
+        <A8>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\rtos\tasks.c" ""</A8>
+        <A9>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\startup_stm32f10x_md.s" ""</A9>
+        <A10>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\stm32F10x_gpioMY.c" ""</A10>
+        <A11>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\stm32F10x_usart1.c" ""</A11>
+        <A12>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\stm32f10x_dma_dihalt.c" ""</A12>
+        <A13>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4_RTOS\source\system_stm32f10x.c" ""</A13>
+        <A14>_ "D:\My\_Radio\ProjectS\HorseMeter\Horse4__RTOS\main.c" ""</A14>
+        <A15>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\main.c" ""</A15>
+        <A16>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\Cfunction.c" ""</A16>
+        <A17>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\SIM800Lib.c" ""</A17>
+        <A18>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\SenseButton.c" ""</A18>
+        <A19>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\heap_1.c" ""</A19>
+        <A20>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\list.c" ""</A20>
+        <A21>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\port.c" "D:\OneDrive\HorseMeter\Horse4_RTOS\source\rtos\port.c"</A21>
+        <A22>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\portasm.s" ""</A22>
+        <A23>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\queue.c" ""</A23>
+        <A24>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\tasks.c" ""</A24>
+        <A25>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\rtos\timers.c" ""</A25>
+        <A26>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\startup_stm32f10x_md.s" ""</A26>
+        <A27>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\stm32F10x_gpioMY.c" ""</A27>
+        <A28>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\stm32F10x_usart1.c" ""</A28>
+        <A29>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\stm32f10x_dma_dihalt.c" ""</A29>
+        <A30>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\system_stm32f10x.c" ""</A30>
+        <A31>_ "D:\My\_Radio\ProjectS\Pony\Horse4_RTOS\source\telemetry.c" ""</A31>
+        <Count>32</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>
